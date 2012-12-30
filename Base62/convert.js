@@ -36,6 +36,3 @@ function convert(src, srctable, desttable)
 	}
 	return res;
 }
-
-var obj = new ActiveXObject("WScript.Shell")
-obj.popup(convert("255", BASE10, BASE2));
