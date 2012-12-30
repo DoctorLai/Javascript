@@ -9,12 +9,8 @@ var Base62 = (function(){
   function _to10(num)
   {
     var limit = num.length;
-    if (!limit)
-    {
-      return 0;
-    }
-    var res = table.indexOf(num.charAt(0));
-    for (var i = 1; i < limit; i ++)
+    var res = 0;
+    for (var i = 0; i < limit; i ++)
     {
       res = 62 * res + table.indexOf(num.charAt(i));
     }
