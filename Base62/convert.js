@@ -15,7 +15,6 @@ function convert(src, srctable, desttable)
 {
 	var srclen = srctable.length;
 	var destlen = desttable.length;
-
 	// first convert to base 10
 	var val = 0;
 	var numlen = src.length;
@@ -23,7 +22,10 @@ function convert(src, srctable, desttable)
 	{
 		val = val * srclen + srctable.indexOf(src.charAt(i));
 	}
-
+	if (val < 0)
+	{
+		return 0;
+	}
 	// then covert to any base
 	var r = val % destlen;
 	var res = desttable.charAt(r);
