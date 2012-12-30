@@ -10,6 +10,7 @@ var BASE10 = "0123456789";
 var BASE16 = "0123456789abcdef";
 var BASE32 = "0123456789abcdefghijklmnopqrstuvwxyz";
 var BASE62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var BASE75 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_.,!=-*(){}[]";
 
 function convert(src, srctable, desttable)
 {
