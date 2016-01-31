@@ -1,4 +1,4 @@
-// http://www.zhihua-lai.com/acm
+// https://helloacm.com
 // 09-Feb-2013
 
 var sys = require('sys');
