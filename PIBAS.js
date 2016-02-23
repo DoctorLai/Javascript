@@ -1,6 +1,6 @@
 // PIBAS Interpreter
 // http://acm.timus.ru/problem.aspx?space=1&num=1230
-// http://www.zhihua-lai.com/acm
+// https://helloacm.com
 
 if (!String.prototype.chatAt) {
 	String.prototype.chatAt = function(idx) {
